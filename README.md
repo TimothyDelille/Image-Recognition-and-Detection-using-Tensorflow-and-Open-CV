@@ -9,7 +9,7 @@ The [Dassault UAV Challenge](https://www.dassault-aviation.com/en/group/news/das
 <p align="center">
     <img src="images/search_area.png" width="200"/>
 </p>
-<p style='text-align:center;font-style:italic;'>Figure: Search Area (T: Takeoff, L: Landing)<br>Three packages (red, yellow and blue) must each be delivered onto the corresponding cross, rectangles are lures</p>
+<center>Figure: Search Area (T: Takeoff, L: Landing)<br>Three packages (red, yellow and blue) must each be delivered onto the corresponding cross, rectangles are lures<center>
 
 ## Generating Training Images
 One of the most limiting factor while training object detection algorithms is the required quantity of training data. The accuracy of the detection depends on lots of factors such as the noise introduced by the drones' camera or the color of the ground during the competition. Physically taking and labelling photos of targets would offer very little flexibility with the produced dataset while being incredibly time-consuming.
