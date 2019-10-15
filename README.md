@@ -47,8 +47,8 @@ We trained and cross-validated an implementation of Inception v2 on Tensorflow, 
     <img align="center" src="images/blue_cross_inference.png" width="200"/>
     <img align="center" src="images/partial_blue_cross.png" width="200"/>
     <img align="center" src="images/partial_blue_and_red_cross.png" width="200"/>
-    <img align="center" src="images/red_rectangle_inference.png" width="150"/>
-    <img align="center" src="images/blue_rectangle_inference.png" width="150"/>
+    <img align="center" src="images/red_rectangle_inference.png" width="120"/>
+    <img align="center" src="images/blue_rectangle_inference.png" width="120"/>
 </p>
 
 In automated flight, we do not want to miss targets, but most importantly, we do not want to deliver a package on something else than the corresponding target. That is, we want to minimize the number of **false positives**. In order to do so, we compute a **moving average on the $k$ last images**. If the moving average crosses a threshhold we fix at $0.8$, we can safely assume we rightfully detected a target.
