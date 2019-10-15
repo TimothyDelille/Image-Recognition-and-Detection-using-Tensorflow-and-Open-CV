@@ -6,7 +6,9 @@
 
 The [Dassault UAV Challenge](https://www.dassault-aviation.com/en/group/news/dassault-uav-challenge-2019/) is an annual competition between top engineering schools in Europe, during which a drone has to complete several missions in complete autonomy. The final objective is for the drone to autonomously explore a bounded area, detect targets of interest and deliver a package on the corresponding targets. In addition, the drone must deliver an accurate map of the explored area (see figure below). During the year 2019-2020, I was in charge of the team responsible for autonomous flight and target detection. The solution we proposed consisted in training a **deep neural network** (Google's Inception v2 in particular) on **artificially generated training images**. We mainly used the Tensorflow framework as well as the Open CV library throughout the project.
 
-<img align="center" src="images/search_area.png" width="200"/>
+<p align="center">
+    <img src="images/search_area.png" width="200"/>
+</p>
 <p style='text-align:center;font-style:italic;'>Figure: Search Area (T: Takeoff, L: Landing)<br>Three packages (red, yellow and blue) must each be delivered onto the corresponding cross, rectangles are lures</p>
 
 ## Generating Training Images
